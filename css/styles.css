@@ -1,0 +1,130 @@
+/* arabic */
+@font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/tajawal/v4/Iura6YBj_oCad4k1nzSBC45I.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/tajawal/v4/Iura6YBj_oCad4k1nzGBCw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html,body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Tajawal', sans-serif;
+    scroll-behavior: smooth;
+
+}
+.nav-link {
+    padding: 1rem 1.25rem !important;
+    color: #113984 !important;
+    font-weight: 600;
+}
+.gradient {
+    background: rgb(0,97, 242);
+    background: linear-gradient(
+        135deg,rgba(0,97,242,1)0%,rgba(105,0,199,1)100%);
+}
+
+h1,h2,h3 {
+    font-weight: 600;
+}
+
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+.btn-warning {
+    color: #113984;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #372edc;
+    border-color: #3134de;
+}
+button {
+    font-weight: 600 !important;
+}
+
+.companies img {
+    filter: grayscale(100%);
+    transition: all 10ms;
+}
+.companies img:hover{
+    filter: grayscale(0%);
+}
+.features {
+    color: #fff;
+}
+.features ul {
+    padding-right: 2rem;
+    list-style-type:none;
+}
+.features ul li {
+    padding-left: 2rem;
+    /* background-image: url(../img/check.svg); */
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.features ul li i  {
+    margin-left: 0.5rem;
+}
+
+.icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gallery{
+    background-color: #f0f0f0;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.services {
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+
+@media (max-width:991px) and (min-width:767px) {
+    .req{
+        margin-bottom:1rem;
+    }
+    
+}
+@media (max-width:409px) {
+    .req{
+        margin-bottom:1rem;
+    }
+    .header-row {
+        text-align: center;
+    }
+  
+}
